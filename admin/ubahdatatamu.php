@@ -33,6 +33,12 @@ $data = mysqli_fetch_assoc($nktp);
             id="alm"><?php echo $data['alamat'] ?></textarea>
     </div>
 
+    <div class="form-group">
+        <label for="kpl" class="block text-sm font-medium text-gray-700">Keperluan</label>
+        <input type="text" class="form-control w-full p-2 rounded-md border border-gray-300" name="kpl"
+            value="<?php echo $data['keperluan'] ?>" id="nm">
+    </div>
+
     <!-- Submit Button -->
     <button type="submit" name="ubahdata"
         class="btn bg-blue-500 text-white w-full py-2 rounded-md hover:bg-blue-600 transition duration-300">UPDATE
@@ -41,7 +47,7 @@ $data = mysqli_fetch_assoc($nktp);
 
 <?php
 if (isset($_POST['ubahdata'])) {
-    $sql = mysqli_query($config, "UPDATE tamu SET nohp='$_POST[nohp]', nama='$_POST[nm]', alamat='$_POST[alm]' WHERE noktp='$_GET[id]'");
+    $sql = mysqli_query($config, "UPDATE tamu SET nohp='$_POST[nohp]', nama='$_POST[nm]', alamat='$_POST[alm]', keperluan='$_POST[kpl]' WHERE noktp='$_GET[id]'");
     echo "<script>alert('Data berhasil di update');</script>";
     echo "<script>location='index.php?halaman=datatamu';</script>";
 }

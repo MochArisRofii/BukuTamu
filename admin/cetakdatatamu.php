@@ -22,6 +22,7 @@
                         <th class="py-2 px-4 text-left border-b">No HP</th>
                         <th class="py-2 px-4 text-left border-b">Nama</th>
                         <th class="py-2 px-4 text-left border-b">Alamat</th>
+                        <th class="py-2 px-4 text-left border-b">Keperluan</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -37,6 +38,7 @@
                             <td class="py-2 px-4 border-b"><?php echo $data['nohp']; ?></td>
                             <td class="py-2 px-4 border-b"><?php echo $data['nama']; ?></td>
                             <td class="py-2 px-4 border-b"><?php echo $data['alamat']; ?></td>
+                            <td class="py-2 px-4 border-b"><?php echo $data['keperluan']; ?></td>
                         </tr>
                     <?php
                         $nomor++;

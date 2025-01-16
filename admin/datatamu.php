@@ -20,6 +20,7 @@
                 <th class="py-2 px-4 text-left">No HP</th>
                 <th class="py-2 px-4 text-left">Nama</th>
                 <th class="py-2 px-4 text-left">Alamat</th>
+                <th class="py-2 px-4 text-left">Keperluan</th>
                 <th class="py-2 px-4 text-left">Aksi</th>
             </tr>
         </thead>
@@ -52,6 +53,7 @@
                             <td class="py-2 px-4"><?php echo $data['nohp']; ?></td>
                             <td class="py-2 px-4"><?php echo $data['nama']; ?></td>
                             <td class="py-2 px-4"><?php echo $data['alamat']; ?></td>
+                            <td class="py-2 px-4"><?php echo $data['keperluan']; ?></td>
                             <td class="py-2 px-4">
                                 <a href="index.php?halaman=ubahdatatamu&id=<?php echo $data['noktp'];?>" class="bg-blue-500 text-white py-1 px-3 rounded-md hover:bg-blue-600 transition duration-300">Ubah</a>
                                 <a href="index.php?halaman=hapusdatatamu&id=<?php echo $data['noktp'];?>" onclick="return confirm('Apakah data dihapus??')" class="bg-red-500 text-white py-1 px-3 rounded-md hover:bg-red-600 transition duration-300 ml-2">Hapus</a>
