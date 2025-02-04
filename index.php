@@ -49,7 +49,7 @@
                 </ul>
 
                 <!-- Tombol Admin dengan ikon -->
-                <a href="/bukutamu/admin"
+                <a href="/bukutamu/admin/login.php"
                     class="bg-white text-black px-4 py-2 rounded-lg flex items-center space-x-2 hover:bg-yellow-500 hover:text-white transition">
                     <i class="fa-solid fa-right-to-bracket"></i>
                 </a>
