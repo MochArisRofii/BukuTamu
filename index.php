@@ -32,32 +32,32 @@
             <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Buku Tamu Oyitok</span>
 
             <!-- Menu items di sebelah kanan -->
-            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-                <ul class="flex p-4 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
+            <div class="flex items-center space-x-4">
+                <ul class="hidden md:flex space-x-8 font-medium">
                     <li>
-                        <a href="#"
-                            class="inline-block py-2 px-3 text-white rounded hover:bg-yellow-500 md:hover:bg-transparent md:hover:text-yellow-500 md:p-0 md:dark:hover:text-yellow-500 dark:hover:bg-yellow-500 dark:hover:text-white"
-                            aria-current="page">Home</a>
+                        <a href="#" class="text-white hover:text-yellow-500">Home</a>
                     </li>
                     <li>
-                        <a href="#progkal"
-                            class="inline-block py-2 px-3 text-white rounded hover:bg-yellow-500 md:hover:bg-transparent md:hover:text-yellow-500 md:p-0 md:dark:hover:text-yellow-500 dark:hover:bg-yellow-500 dark:hover:text-white">Kompetensi
-                            Keahlian</a>
+                        <a href="#progkal" class="text-white hover:text-yellow-500">Kompetensi Keahlian</a>
                     </li>
                     <li>
-                        <a href="#visimisi"
-                            class="inline-block py-2 px-3 text-white rounded hover:bg-yellow-500 md:hover:bg-transparent md:hover:text-yellow-500 md:p-0 md:dark:hover:text-yellow-500 dark:hover:bg-yellow-500 dark:hover:text-white">Visi
-                            Misi Value</a>
+                        <a href="#visimisi" class="text-white hover:text-yellow-500">Visi Misi Value</a>
                     </li>
                     <li>
-                        <a href="#contact"
-                            class="inline-block py-2 px-3 text-white rounded hover:bg-yellow-500 md:hover:bg-transparent md:hover:text-yellow-500 md:p-0 md:dark:hover:text-yellow-500 dark:hover:bg-yellow-500 dark:hover:text-white">Hubungi
-                            Kami</a>
+                        <a href="#contact" class="text-white hover:text-yellow-500">Hubungi Kami</a>
                     </li>
                 </ul>
+
+                <!-- Tombol Admin dengan ikon -->
+                <a href="/bukutamu/admin"
+                    class="bg-white text-black px-4 py-2 rounded-lg flex items-center space-x-2 hover:bg-yellow-500 hover:text-white transition">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                </a>
             </div>
         </div>
     </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+
 
 
     <!-- Bagian Banner -->
