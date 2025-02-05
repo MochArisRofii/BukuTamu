@@ -10,9 +10,6 @@
     $alamat = $_POST['alm'];
     $keperluan = $_POST['kpl'];
 
-    // membuat variabel query berisi fungsi mysqli_query
-    // untuk menginputkan nilai $ktp, $hp, $nama, $alamat
-    // ke tabek tamu
 
     $query = mysqli_query($config, "INSERT INTO tamu VALUES ('$ktp','$hp','$nama','$alamat', '$keperluan')");
 ?>
